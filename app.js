@@ -10,8 +10,8 @@ setInterval(updateTime, 1000);
 
         
         
-        document.addEventListener('DOMContentLoaded', function() {
-            const avatarElement = document.querySelector('[data-testid="test-user-avatar"]');
+ document.addEventListener('DOMContentLoaded', function() {
+    const avatarElement = document.querySelector('[data-testid="test-user-avatar"]');
             
            
             const fileInput = document.createElement('input');
