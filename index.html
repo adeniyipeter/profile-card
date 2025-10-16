@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adeniyi Peter - Profile Card</title>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <article data-testid="test-profile-card">
+    <div class="profile-container">
+      <section class="profile-image-section">
+        <figure>
+          <img
+            src="./pic.jpg"
+            alt=""
+            data-testid="test-user-avatar"
+          >
+          <figcaption>Adeniyi Peter</figcaption>
+        </figure>
+        <div class="time-container">
+          <span data-testid="test-user-time">Loading time...</span>
+        </div>
+      </section>
+
+      <section class="profile-content">
+        <header>
+          <h2 data-testid="test-user-name">Adeniyi Peter</h2>
+          <p>Frontend Developer</p>
+        </header>
+
+        <p data-testid="test-user-bio">
+          I’m a passionate Frontend Developer who loves building elegant, responsive, and high-performing web applications.
+          I specialize in Angular, Tailwind CSS, and clean UI design that delivers great user experiences.
+          I enjoy exploring new technologies and turning ideas into interactive web projects.
+        </p>
+
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding & UI Design</li>
+            <li>Watching Football</li>
+            <li>Exploring New Tech Tools</li>
+            <li>Listening to Music</li>
+            <li>Reading Tech Articles</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Messy Codebases</li>
+            <li>Poorly Structured UI</li>
+            <li>Unresponsive Websites</li>
+            <li>Overcomplicated Designs</li>
+          </ul>
+        </section>
+
+        <nav data-testid="test-user-social-links" aria-label="Social media links">
+          <div class="social-links">
+           <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-link" data-testid="test-user-social-twitter">
+                <i class="fab fa-twitter social-icon"></i> Twitter
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link" data-testid="test-user-social-github">
+        <i class="fab fa-github social-icon"></i> GitHub
+        </a>
+        <a href="https://linkedin.com/in/adeniyipeter" target="_blank" rel="noopener noreferrer" class="social-link" data-testid="test-user-social-linkedin">
+        <i class="fab fa-linkedin social-icon"></i> LinkedIn
+        </a>
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="social-link" data-testid="test-user-social-instagram">
+        <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+
+
+
+          </div>
+        </nav>
+      </section>
+    </div>
+  </article>
+</body>
+</html>
