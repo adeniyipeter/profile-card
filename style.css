@@ -119,6 +119,8 @@
         color: #ffffff;
         font-weight: 600;
         transition: var(--transition);
+        cursor: pointer;
+
     }
      .page-links a:hover {
     text-decoration: underline;
