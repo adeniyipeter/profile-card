@@ -50,11 +50,20 @@
         .profile-image-section {
             background-color: var(--primary-color);
             padding: 30px;
+            /* display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            flex: 1; */
+        }
+        .Profile{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             color: white;
+            margin-top: 180px;
             flex: 1;
         }
 
@@ -62,7 +71,9 @@
             .profile-image-section {
                 flex: 0 0 35%;
             }
+          
         }
+         
 
         figure {
             margin: 0;
@@ -87,6 +98,31 @@
             padding: 30px;
             flex: 1;
         }
+              .page-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+            list-style: none;
+            }
+
+        .page-links li {
+         padding-left: 0;
+        }
+
+        .page-links li::before {
+        display: none;
+        }
+
+        .page-links a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 600;
+        transition: var(--transition);
+    }
+     .page-links a:hover {
+    text-decoration: underline;
+}
 
         header {
             margin-bottom: 20px;
@@ -140,11 +176,13 @@
             list-style-type: none;
             padding-left: 0;
         }
+      
 
         li {
             margin-bottom: 8px;
             padding-left: 20px;
             position: relative;
+             list-style-type: none;
         }
 
         li::before {
@@ -164,6 +202,15 @@
             flex-wrap: wrap;
             gap: 10px;
         }
+         .page-links {
+            display: flex;
+           flex-direction: row;
+            justify-content: center;
+            margin-bottom: 20px;
+            gap:20px;
+           
+           }
+          
 
         .social-link {
             display: inline-flex;
@@ -207,6 +254,9 @@
                 width: 120px;
                 height: 120px;
             }
+       .Profile{
+            margin-top: 0;
+         }
         }
 
         @media (max-width: 480px) {
